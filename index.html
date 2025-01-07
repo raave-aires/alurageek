@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce de CDs</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/assets/images/logo.png" class="img-logo">
+        </div>
+        <div class="titulo">
+            <h1>THEO STORE - Cadastro</h1>
+        </div>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Buscar produtos..." class="search-input">
+            <button id="search-button" class="search-button">
+                🔍
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="product-section" id="cardsAlbuns">
+            <h2>Produtos Cadastrados</h2>
+            <div class="cards-container">
+                <div class="cards-container-itens">
+                    <!-- <div class="card">
+                        <img src="https://via.placeholder.com/150" alt="Imagem do CD" class="cd-image">
+                        <div class="info">
+                            <strong></strong>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="details">
+                            <p><strong>Tipo:</strong></p>
+                            <p><strong>Peso:</strong></p>
+                            <p><strong>Altura:</strong></p>
+                            <p><strong>Largura:</strong></p>
+                            <p><strong>Custo:</strong></p>
+                            <p><strong>Lucro:</strong></p>
+                            <p><strong>Estoque:</strong> 10</p>
+                        </div>
+                        <button class="editar">Editar</button>
+                        <button class="delete">🗑️</button>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="form-section" id="albumForm">
+            <h2>Cadastrar Novo Produto</h2>
+            <form>
+                <div class="form-group">
+                    <label for="album">Nome do Álbum:</label>
+                    <input type="text" id="album" name="album" placeholder="Digite o nome do CD...">
+                </div>
+                <div class="form-group">
+                    <label for="cantor">Nome do cantor:</label>
+                    <input type="text" id="cantor" name="valor" placeholder="Digite o nome do cantor">
+                </div>
+                <div class="form-group">
+                    <label for="valor">Valor:</label>
+                    <input type="text" id="valor" name="valor" placeholder="Digite o valor...">
+                    <div class="form-group">
+                        <label for="tipo">Tipo:</label>
+                        <input type="text" id="tipo" name="tipo" placeholder="Digite o tipo: Álbum, Box, etc...">
+                    </div>
+                    <div class="form-group">
+                        <label for="peso">Peso:</label>
+                        <input type="text" id="peso" name="peso" placeholder="Digite o peso...">
+                    </div>
+                    <div class="form-group">
+                        <label for="altura">Altura:</label>
+                        <input type="text" id="altura" name="altura" placeholder="Digite a altura...">
+                    </div>
+                    <div class="form-group">
+                        <label for="largura">Largura:</label>
+                        <input type="text" id="largura" name="largura" placeholder="Digite a largura...">
+                    </div>
+                    <div class="form-group">
+                        <label for="custo">Custo:</label>
+                        <input type="text" id="custo" name="custo" placeholder="Digite o custo...">
+                    </div>
+                    <div class="form-group">
+                        <label for="lucro">Lucro por item:</label>
+                        <input type="number" id="lucro" name="lucro" placeholder="Digite o lucro por item...">
+                    </div>
+                    <div class="form-group">
+                        <label for="estoque">Estoque (unidades):</label>
+                        <input type="number" id="estoque" name="estoque" placeholder="Digite o Estoque">
+                    </div>
+                    <div class="form-group form-input-file">
+                        <label for="imagem">Imagem:</label>
+                        <input class="input-file" type="file" id="imagem" name="imagem" placeholder="URL da imagem">
+                        <img id="preview" src="https://via.placeholder.com/150" alt="Preview da imagem" />
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit">Adicionar</button>
+                        <button type="button" class="clear" id="clear-form">Limpar</button>
+                    </div>
+
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="redes-sociais">
+            <a href="#"><img class="iconRs" src="./assets/images/linkedin.png" alt="linkedin"></a>
+            <a href="#"><img class="iconRs" src="./assets/images/github.png" alt="github"></a>
+            <a href="#"> <img class="iconRs" src="./assets/images/instagram.png" alt="instagram"></a>
+        </div>
+        <p>&copy; 2025 Kelson Oliveira. Todos os direitos reservados.</p>
+    </footer>
+
+    <script type="module" src="assets/js/script.js"></script>
+
+</body>
+
+</html>
